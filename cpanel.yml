@@ -4,6 +4,10 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/kidcellence/dev.kidcellence.com/
     - /bin/cp -R .vscode $DEPLOYPATH
+    - /bin/cp -R public $DEPLOYPATH
+    - /bin/cp -R src $DEPLOYPATH
+    - /bin/cp -R .htaccess $DEPLOYPATH
+    - /bin/cp -R index.php $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
     - /bin/cp -R fonts $DEPLOYPATH
