@@ -1,0 +1,21 @@
+RewriteEngine On
+
+# Redirect Trailing Slashes If Not A Folder...
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+# Handle Front Controller...
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [L]
+
+RewriteRule ^api/auth/confirm$ src/controllers/UserController.php?endpoint=confirm [QSA,L]
+
+
+# CORS Configuration
+<IfModule mod_headers.c>
+Header set Access-Control-Allow-Origin "https://kidcellence.com"
+#   Header set Access-Control-Allow-Origin "http://localhost:4200"
+  Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+  Header set Access-Control-Allow-Headers "Content-Type, Authorization"
+</IfModule>

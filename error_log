@@ -1,0 +1,146 @@
+[06-Dec-2024 12:53:30 UTC] Callback received from PayGate.
+[06-Dec-2024 12:53:30 UTC] Array
+(
+    [PAYGATE_ID] => 10011072130
+    [REFERENCE] => SUBS_37_1733489596
+    [TRANSACTION_STATUS] => 5
+    [RESULT_CODE] => 990030
+    [AUTH_CODE] => 
+    [AMOUNT] => 55000
+    [RESULT_DESC] => PaySubs transaction successfully loaded
+    [TRANSACTION_ID] => 
+    [SUBSCRIPTION_ID] => 69803
+    [RISK_INDICATOR] => XX
+    [CHECKSUM] => db966ccc16cf1548774a03d811a396c8
+)
+
+[06-Dec-2024 12:53:30 UTC] Calculated Checksum: db966ccc16cf1548774a03d811a396c8
+[06-Dec-2024 12:53:30 UTC] Received Checksum: db966ccc16cf1548774a03d811a396c8
+[06-Dec-2024 12:53:30 UTC] Transaction Status: 5
+[06-Dec-2024 12:53:30 UTC] Result Code: 990030
+[06-Dec-2024 12:53:30 UTC] Transaction failed with Result Code: 990030, Status: 5
+[06-Dec-2024 12:53:30 UTC] Description: PaySubs transaction successfully loaded
+[06-Dec-2024 12:56:27 UTC] Callback received from PayGate.
+[06-Dec-2024 12:56:27 UTC] Array
+(
+    [PAYGATE_ID] => 10011072130
+    [REFERENCE] => SUBS_37_1733489737
+    [TRANSACTION_STATUS] => 1
+    [RESULT_CODE] => 990017
+    [AUTH_CODE] => 3MY905
+    [AMOUNT] => 55000
+    [RESULT_DESC] => Auth Done
+    [TRANSACTION_ID] => 930145154
+    [SUBSCRIPTION_ID] => 69804
+    [RISK_INDICATOR] => AP
+    [CHECKSUM] => a0c2d8a6ddbd27ecdc539aafcb4a1e50
+)
+
+[06-Dec-2024 12:56:27 UTC] Calculated Checksum: a0c2d8a6ddbd27ecdc539aafcb4a1e50
+[06-Dec-2024 12:56:27 UTC] Received Checksum: a0c2d8a6ddbd27ecdc539aafcb4a1e50
+[06-Dec-2024 12:56:27 UTC] Transaction Status: 1
+[06-Dec-2024 12:56:27 UTC] Result Code: 990017
+[06-Dec-2024 13:01:26 UTC] Callback received from PayGate.
+[06-Dec-2024 13:01:26 UTC] Array
+(
+    [PAYGATE_ID] => 10011072130
+    [REFERENCE] => SUBS_37_1733490053
+    [TRANSACTION_STATUS] => 1
+    [RESULT_CODE] => 990017
+    [AUTH_CODE] => D0MI2M
+    [AMOUNT] => 55000
+    [RESULT_DESC] => Auth Done
+    [TRANSACTION_ID] => 930148653
+    [SUBSCRIPTION_ID] => 69805
+    [RISK_INDICATOR] => AP
+    [CHECKSUM] => e04fd0b7db7e4a01f3d80e0e3d720e54
+)
+
+[06-Dec-2024 13:01:26 UTC] Calculated Checksum: e04fd0b7db7e4a01f3d80e0e3d720e54
+[06-Dec-2024 13:01:26 UTC] Received Checksum: e04fd0b7db7e4a01f3d80e0e3d720e54
+[06-Dec-2024 13:01:26 UTC] Transaction Status: 1
+[06-Dec-2024 13:01:26 UTC] Result Code: 990017
+[06-Dec-2024 13:15:23 UTC] Callback received from PayGate.
+[06-Dec-2024 13:15:23 UTC] Array
+(
+    [PAYGATE_ID] => 10011072130
+    [REFERENCE] => SUBS_38_1733490886
+    [TRANSACTION_STATUS] => 1
+    [RESULT_CODE] => 990017
+    [AUTH_CODE] => FOD6CT
+    [AMOUNT] => 55000
+    [RESULT_DESC] => Auth Done
+    [TRANSACTION_ID] => 930158650
+    [SUBSCRIPTION_ID] => 69806
+    [RISK_INDICATOR] => AP
+    [CHECKSUM] => 13f4a3267943390349d87cd8dac06643
+)
+
+[06-Dec-2024 13:15:23 UTC] Calculated Checksum: 13f4a3267943390349d87cd8dac06643
+[06-Dec-2024 13:15:23 UTC] Received Checksum: 13f4a3267943390349d87cd8dac06643
+[06-Dec-2024 13:15:23 UTC] Transaction Status: 1
+[06-Dec-2024 13:15:23 UTC] Result Code: 990017
+[06-Dec-2024 13:15:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kidcellence/dev.kidcellence.com/src/controllers/UserController.php:386) in /home/kidcellence/dev.kidcellence.com/src/controllers/UserController.php on line 387
+[06-Dec-2024 13:23:01 UTC] Callback received from PayGate.
+[06-Dec-2024 13:23:01 UTC] Array
+(
+    [PAYGATE_ID] => 10011072130
+    [REFERENCE] => SUBS_38_1733491319
+    [TRANSACTION_STATUS] => 1
+    [RESULT_CODE] => 990017
+    [AUTH_CODE] => PLIMUJ
+    [AMOUNT] => 55000
+    [RESULT_DESC] => Auth Done
+    [TRANSACTION_ID] => 930163888
+    [SUBSCRIPTION_ID] => 69807
+    [RISK_INDICATOR] => AP
+    [CHECKSUM] => 9300f73d8563443d6edb2e52411f875e
+)
+
+[06-Dec-2024 13:23:01 UTC] Calculated Checksum: 9300f73d8563443d6edb2e52411f875e
+[06-Dec-2024 13:23:01 UTC] Received Checksum: 9300f73d8563443d6edb2e52411f875e
+[06-Dec-2024 13:23:01 UTC] Transaction Status: 1
+[06-Dec-2024 13:23:01 UTC] Result Code: 990017
+[06-Dec-2024 14:02:10 UTC] Callback received from PayGate.
+[06-Dec-2024 14:02:10 UTC] Array
+(
+    [PAYGATE_ID] => 10011072130
+    [REFERENCE] => SUBS_38_1733493690
+    [TRANSACTION_STATUS] => 1
+    [RESULT_CODE] => 990017
+    [AUTH_CODE] => BZNDOS
+    [AMOUNT] => 55000
+    [RESULT_DESC] => Auth Done
+    [TRANSACTION_ID] => 930191777
+    [SUBSCRIPTION_ID] => 69810
+    [RISK_INDICATOR] => AP
+    [CHECKSUM] => 7d6eabe2b7498c7e9b324dcb6b4123e5
+)
+
+[06-Dec-2024 14:02:10 UTC] Calculated Checksum: 7d6eabe2b7498c7e9b324dcb6b4123e5
+[06-Dec-2024 14:02:10 UTC] Received Checksum: 7d6eabe2b7498c7e9b324dcb6b4123e5
+[06-Dec-2024 14:02:10 UTC] Transaction Status: 1
+[06-Dec-2024 14:02:10 UTC] Result Code: 990017
+[06-Dec-2024 14:11:06 UTC] Callback received from PayGate.
+[06-Dec-2024 14:11:06 UTC] Array
+(
+    [PAYGATE_ID] => 10011072130
+    [REFERENCE] => SUBS_38_1733494226
+    [TRANSACTION_STATUS] => 1
+    [RESULT_CODE] => 990017
+    [AUTH_CODE] => OV74HO
+    [AMOUNT] => 55000
+    [RESULT_DESC] => Auth Done
+    [TRANSACTION_ID] => 930198439
+    [SUBSCRIPTION_ID] => 69811
+    [RISK_INDICATOR] => AP
+    [CHECKSUM] => a26bedce4fe7fceaad9a4180eef478c4
+)
+
+[06-Dec-2024 14:11:06 UTC] Calculated Checksum: a26bedce4fe7fceaad9a4180eef478c4
+[06-Dec-2024 14:11:06 UTC] Received Checksum: a26bedce4fe7fceaad9a4180eef478c4
+[06-Dec-2024 14:11:06 UTC] Transaction Status: 1
+[06-Dec-2024 14:11:06 UTC] Result Code: 990017
+[06-Dec-2024 15:11:13 UTC] Received token: 6e4eb85cf502f3b61b2bd3ecba506a74
+[06-Dec-2024 15:11:13 UTC] Rows affected: 1
+[06-Dec-2024 15:11:13 UTC] Email confirmed for token: 6e4eb85cf502f3b61b2bd3ecba506a74
