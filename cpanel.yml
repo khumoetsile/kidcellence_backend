@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/kidcellence/dev.kidcellence.com/
+    - /bin/cp -R images $DEPLOYPATH
