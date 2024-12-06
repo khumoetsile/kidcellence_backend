@@ -14,8 +14,8 @@ RewriteRule ^api/auth/confirm$ src/controllers/UserController.php?endpoint=confi
 
 # CORS Configuration
 <IfModule mod_headers.c>
-Header set Access-Control-Allow-Origin "https://kidcellence.com"
-#   Header set Access-Control-Allow-Origin "http://localhost:4200"
+#Header set Access-Control-Allow-Origin "https://kidcellence.com"
+   Header set Access-Control-Allow-Origin "http://localhost:4200"
   Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
   Header set Access-Control-Allow-Headers "Content-Type, Authorization"
 </IfModule>
